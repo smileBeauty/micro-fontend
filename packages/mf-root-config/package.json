@@ -1,0 +1,58 @@
+{
+  "name": "mf-root-config",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "author": "Qu, Di D. <di.d.qu@accenture.com>",
+  "homepage": "https://github.com/e2eos/mf-mono#readme",
+  "license": "MIT",
+  "main": "lib/mf-root-config.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2eos/mf-mono.git"
+  },
+  "bugs": {
+    "url": "https://github.com/e2eos/mf-mono/issues"
+  },
+  "scripts": {
+    "serve": "npm run build && webpack-dev-server --mode=development --port 9000 --env.isLocal=true",
+    "lint": "eslint src",
+    "test": "jest",
+    "prettier": "prettier --write './**'",
+    "build": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@types/systemjs": "^6.1.0",
+    "babel-eslint": "^11.0.0-beta.2",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "concurrently": "^5.0.2",
+    "copy-webpack-plugin": "^5.1.1",
+    "eslint": "^6.7.2",
+    "eslint-config-important-stuff": "^1.1.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "serve": "^11.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "single-spa": "^4.4.2",
+    "systemjs": "^6.2.6"
+  }
+}

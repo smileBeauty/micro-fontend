@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.2.1/lib/system/single-spa.min.js",
+    "mf-shared-dependencies-vue": "http://localhost:9010/js/app.js",
+    "mf-platform": "http://localhost:9100/manifest.json",
+    "mf-application-user": "http://localhost:9200/manifest.json",
+    "mf-application-customer": "http://localhost:9300/manifest.json",
+    "mf-root-config": "http://localhost:9000/main.js"
+  }
+}

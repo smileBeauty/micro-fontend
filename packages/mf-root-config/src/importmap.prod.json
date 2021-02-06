@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.2.1/lib/system/single-spa.min.js",
+    "mf-shared-dependencies-vue": "/bsappvue/mf-shared-dependencies-vue/js/app.js",
+    "mf-platform": "/bsappvue/mf-platform-vue/manifest.json",
+    "mf-root-config": "/bsappvue/main.js"
+  }
+}
+
